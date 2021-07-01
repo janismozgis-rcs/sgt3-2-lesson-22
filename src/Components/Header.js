@@ -32,6 +32,7 @@ function Header() {
                             <NavLink className="nav-link" to="/page-1">Page 1</NavLink>
                             <NavLink className="nav-link" to="/page-2">Page 2</NavLink>
                             <NavLink className="nav-link" to="/page-3">Page 3</NavLink>
+                            <NavLink className="nav-link" to="/article">Article</NavLink>
                         </div>
                     </div>
                 </div>

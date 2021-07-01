@@ -6,6 +6,7 @@ import Page1 from './Views/Page1';
 import Page2 from './Views/Page2';
 import Page3 from './Views/Page3';
 import Page404 from './Views/Page404';
+import Article from './Views/Article';
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
                     </Route>
                     <Route path="/page-3">
                         <Page3 />
+                    </Route>
+                    <Route path="/article/:articleId">
+                        <Article />
                     </Route>
                     <Route>
                         <Page404 />
